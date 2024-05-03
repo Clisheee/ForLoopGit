@@ -12,8 +12,16 @@ namespace IfUndElse
             }
             else
             {
-                Console.WriteLine("Number on midagi muud");
+                if (i == 8)
+                {
+                    Console.WriteLine("Number on midagi muud");
+                }
+                else
+                {
+                    Console.WriteLine("Midagi on täitsa katki");
+                }
             }
+
         }
     }
 }
